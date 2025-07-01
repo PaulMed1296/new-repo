@@ -1,0 +1,46 @@
+* {
+  box-sizing: content-box
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p
+{
+ margin: 10px 10px;
+ padding: 10px 10px;
+ font-size: medium;
+ font-weight: 200;
+ color: #8b500b;  
+}
+
+header {
+    height: 200px;
+}
+
+.titulo-presentacion1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.page {
+    background-color: #000;
+}
+
+.cuadro-bienvenida {
+    background-color: rgba(102,54,5,.25);
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-bienvenida {
+    font-weight: bolder;
+    font-size: 50px;
+    text-transform: uppercase;
+}
