@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background: gray;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 16px;
+  row-gap: 16px;
+}
+header {
+  background: white;
+  grid-column: span 4;
+  grid-row: 1;
+  height: 5vh;
+}
+nav,
+main {
+  background: white;
+  grid-row: 2;
+}
+nav {
+  grid-column: 1;
+  height: 95vh;
+}
+main {
+  grid-column: 2 / 4;
+}
+.ad_size_small {
+  grid-column: 4;
+  height: 200px;
+  background: white;
+}
